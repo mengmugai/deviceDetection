@@ -1,6 +1,105 @@
 <resources>
-    <string name="app_name">deviceDetection</string>
+<!--    <string name="app_name">deviceDetection</string>-->
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="app_name">设备信息</string>
+    <string name="action_settings">设置</string>
+
+    <string name="menu_net">网络</string>
+    <string name="menu_battery">电池</string>
+    <string name="menu_system">系统</string>
+    <string name="system_api" translatable="false">API</string>
+    <string name="system_vm" translatable="false">Java VM</string>
+    <string name="system_tags" translatable="false">Tags</string>
+    <string name="net_ipv4" translatable="false">IPv4</string>
+    <string name="net_ipv6" translatable="false">IPv6</string>
+    <string name="net_bssid" translatable="false">BSSID</string>
+    <string name="net_ssid" translatable="false">SSID</string>
+    <string name="net_mac" translatable="false">MAC</string>
+    <string name="net_link_speed">链接速度</string>
+    <string name="net_id">信道</string>
+    <string name="net_rssi">信号</string>
+    <string name="net_level">级别</string>
+    <string name="net_state">状态</string>
+    <string name="net_proxy">代理</string>
+    <string name="net_proxy_host">代理地址</string>
+    <string name="net_proxy_port">代理端口</string>
+    <string name="action_about">关于</string>
+    <string name="net_frequency">频率</string>
+    <string name="menu_thermal">温度</string>
+    <string name="battery_level">电量</string>
+    <string name="battery_status">状态</string>
+    <string name="battery_health">健康情况</string>
+    <string name="battery_power_source">电源</string>
+    <string name="battery_temperature">温度</string>
+    <string name="battery_voltage">电压</string>
+    <string name="battery_power_profile">电源配置文件</string>
+    <string name="battery_present">电池</string>
+    <string name="battery_technology">技术</string>
+    <string name="battery_average">平均电流</string>
+    <string name="system_manufacture">制造商</string>
+    <string name="system_model">型号</string>
+    <string name="system_brand">品牌</string>
+    <string name="system_release">发布版本</string>
+    <string name="system_code_name">开发代号</string>
+    <string name="system_density">密度</string>
+    <string name="system_refresh_rate">刷新率</string>
+    <string name="system_device">设备</string>
+    <string name="system_product">产品</string>
+    <string name="system_board">主板</string>
+    <string name="system_platform">平台</string>
+    <string name="system_build">版本号</string>
+    <string name="system_security">安全补丁级别</string>
+    <string name="system_baseband">基带</string>
+    <string name="system_build_type">构件类型</string>
+    <string name="system_incremental">增量版本</string>
+    <string name="system_description">描述</string>
+    <string name="system_fingerprint">指纹</string>
+    <string name="system_device_features">设备特征</string>
+    <string name="system_builder">构建者</string>
+    <string name="system_language">语言</string>
+    <string name="system_timezone">时区</string>
+    <string name="system_uptime">正常运行时间</string>
+    <string name="nav_header_options">选项</string>
+    <string name="menu_partitions">分区</string>
+    <string name="store_mem_name">内存</string>
+    <string name="store_sd_name">内部存储器</string>
+    <string name="menu_store">内存</string>
+    <string name="menu_applications">应用程序</string>
+    <string name="menu_codecs">编解码器</string>
+    <string name="menu_input">输出</string>
+    <string name="usb_vendor">供应商</string>
+    <string name="usb_model">型号</string>
+    <string name="usb_device_id">设备 ID</string>
+    <string name="usb_number">编号</string>
+    <string name="usb_serial">序列号</string>
+    <string name="usb_path">路径</string>
+    <string name="usb_version">版本</string>
+    <string name="usb_devices">设备</string>
+    <string name="usb_not_found">找不到</string>
+    <string name="menu_soc">芯片</string>
+    <string name="menu_emulator">模拟器</string>
+    <string name="menu_virtual">多开</string>
+    <string name="menu_debug">调试</string>
+    <string name="menu_device">设备信息</string>
+    <string name="settings_language">语言</string>
+    <string name="settings_language_default">默认</string>
+    <string name="menu_app">应用信息</string>
+    <string name="menu_bluetooth">蓝牙</string>
+    <string name="menu_others">其他信息</string>
+    <string name="menu_camera">相机</string>
+    <string name="camera_aperture">光圈</string>
+    <string name="camera_resolution">分辨率</string>
+    <string name="camera_focal_length">焦距</string>
+    <string name="camera_af_modes">对焦模式</string>
+    <string name="camera_size">传感器尺寸</string>
+    <string name="camera_pixel_size">像素大小</string>
+    <string name="camera_view_angle">视角</string>
+    <string name="camera_formats">图像格式</string>
+    <string name="camera_color_filter">彩色滤光片</string>
+    <string name="camera_orientation">方向</string>
+    <string name="camera_flash">闪光灯</string>
+    <string name="menu_hardware">硬件</string>
+    <string name="camera_iso" translatable="false">ISO</string>
 </resources>
