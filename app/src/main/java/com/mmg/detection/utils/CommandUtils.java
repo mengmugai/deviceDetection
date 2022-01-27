@@ -46,7 +46,7 @@ public class CommandUtils {
         InputStream inputstream = null;
         String allPaths = "";
         try {
-            inputstream = Runtime.getRuntime().exec( command).getInputStream();
+            inputstream = Runtime.getRuntime().exec(new String[]{"su","-c", command}).getInputStream();
             allPaths = new Scanner(inputstream).useDelimiter("gjgjgkhhlcyck").next();
 //            allPaths = new Scanner(inputstream).nextLine();
         } catch (Exception e) {

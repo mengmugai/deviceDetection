@@ -23,8 +23,8 @@ public class HookInfo {
         list.add(new Pair<>("XposedPackage", HookUtils.chargeXposedPackage(context)));
         list.add(new Pair<>("XposedInject", XposedHookUtils.checkXposedInjet(context).toString()));
         list.add(new Pair<>("XposedClass", HookUtils.classCheck() + ""));
-        list.add(new Pair<>("riru_or_lspriru", HookUtils.riruCheck(context) + ""));
-        list.add(new Pair<>("roottrue", HookUtils.roottrue(context) + ""));
+        list.add(new Pair<>("安装riru?(需要root权限)", HookUtils.riruCheck(context) + ""));
+        list.add(new Pair<>("root是否授权", HookUtils.rooterify(context) + ""));
         return list;
     }
 

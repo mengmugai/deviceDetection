@@ -58,6 +58,8 @@ dependencies {
     implementation 'com.google.firebase:firebase-analytics:18.0.0'
     implementation 'com.google.firebase:firebase-perf:19.0.10'
     implementation 'androidx.preference:preference:1.1.1'
+    implementation 'com.jakewharton:butterknife:10.2.3'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.3'
 
     //OAID
 //    implementation(name: 'miit_mdid_1.0.10', ext: 'aar')

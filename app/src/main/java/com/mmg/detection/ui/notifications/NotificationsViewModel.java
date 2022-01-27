@@ -1,19 +1,20 @@
 package com.mmg.detection.ui.notifications;
 
+import android.content.Context;
+
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class NotificationsViewModel extends ViewModel {
+import com.mmg.detection.info.AppListInfo;
+import com.mmg.detection.model.beans.ApplicationBean;
+import com.mmg.detection.ui.base.BaseViewModel;
 
-    private MutableLiveData<String> mText;
+import java.util.List;
 
-    public NotificationsViewModel() {
-        mText = new MutableLiveData<>();
-        mText.setValue("This is notifications fragment");
-    }
+public class NotificationsViewModel extends BaseViewModel {
 
-    public LiveData<String> getText() {
-        return mText;
+    protected List<ApplicationBean> getAppListInfo(Context context) {
+        return AppListInfo.getAppListInfo(context);
     }
 }

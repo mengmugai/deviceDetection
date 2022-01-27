@@ -1,8 +1,8 @@
 <resources>
 <!--    <string name="app_name">deviceDetection</string>-->
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_home">Hook检测</string>
+    <string name="title_dashboard">设备信息</string>
+    <string name="title_notifications">插件列表</string>
     <string name="app_name">设备信息</string>
     <string name="action_settings">设置</string>
 

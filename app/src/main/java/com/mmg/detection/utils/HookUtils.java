@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
 import android.util.Log;
+import android.widget.Toast;
 
 import androidx.core.util.Pair;
 
@@ -156,8 +157,8 @@ public class HookUtils {
     }
     public static boolean riruCheck(Context context)  {
         try {
-            String[] array = CommandUtils.exec_n("ps -ef");
-            if (array.length >1){
+            String[] array = CommandUtils.exec_n("ps -ef | grep riru_");
+            if (array.length >4){
                 return true;
             }else {
                 return false;
@@ -168,25 +169,17 @@ public class HookUtils {
         }
 
     }
-    public static boolean roottrue(Context context){
-        Runtime mRuntime = Runtime.getRuntime();
+    public static boolean rooterify(Context context){
+//        Runtime mRuntime = Runtime.getRuntime();
         try {
-            //Process中封装了返回的结果和执行错误的结果
-            Process mProcess = mRuntime.exec("adb shell ps");
-            BufferedReader mReader = new BufferedReader(new InputStreamReader(mProcess.getInputStream()));
-            StringBuffer mRespBuff = new StringBuffer();
-            char[] buff = new char[1024];
-            int ch = 0;
-            while ((ch = mReader.read(buff)) != -1) {
-                mRespBuff.append(buff, 0, ch);
-            }
-            mReader.close();
-            System.out.print(mRespBuff.toString());
-            return true;
-        } catch (IOException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
+            Runtime.getRuntime().exec("su");
             return true;
         }
+        catch (Exception e){
+                Toast.makeText(context, "获取ROOT权限时出错!", Toast.LENGTH_LONG).show();
+                return false;
+            }
+
+
     }
 }
