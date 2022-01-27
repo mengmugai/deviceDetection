@@ -32,7 +32,7 @@ public class AppListInfo {
             ApplicationInfo app = info.applicationInfo;
 //            if (!app.enabled)
 //                continue;
-           
+
             if (app.metaData != null && app.metaData.containsKey("xposedmodule")) {
                 bean.setName(info.applicationInfo.loadLabel(packageManager).toString());
                 bean.setPackageName(info.packageName);
