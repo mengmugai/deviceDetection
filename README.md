@@ -11,3 +11,4 @@
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=mengmugai/deviceDetection&type=Date)](https://star-history.com/#mengmugai/deviceDetection&Date)
+[图](https://star-history.com/#mengmugai/deviceDetection&Date)
